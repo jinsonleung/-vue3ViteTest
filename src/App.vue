@@ -1,16 +1,22 @@
+<!--
+ * @Author: JinsonLiang
+ * @Date: 2021-07-02 16:34:06
+ * @LastEditors: JinsonLiang
+ * @LastEditTime: 2021-07-05 12:23:47
+ * @Description: file content
+ * @FilePath: \vue3-vite-test\src\App.vue
+-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
   }
 })
 </script>
