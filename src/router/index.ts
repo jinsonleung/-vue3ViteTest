@@ -2,7 +2,7 @@
  * @Author: JinsonLiang
  * @Date: 2021-07-05 09:44:52
  * @LastEditors: JinsonLiang
- * @LastEditTime: 2021-07-05 12:19:19
+ * @LastEditTime: 2021-07-05 14:20:18
  * @Description: file content
  * @FilePath: \vue3-vite-test\src\router\index.ts
  */
@@ -10,6 +10,7 @@
 import {createRouter, createWebHashHistory} from "vue-router";
 import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";
+
 
 const routes = [
     { path: '/', component: Home },

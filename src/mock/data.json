@@ -1,0 +1,11 @@
+{
+  "info": {
+    "name": "获得的info数据"
+  },
+  "goods": {
+    "name": "获得的goods数据"
+  },
+  "ratings": {
+    "name": "获得的ratings数据"
+  }
+}
