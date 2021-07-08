@@ -8,20 +8,20 @@
 -->
 
 <template>
-  <div>==HOME PAGE==</div>
+    
+  <div>==HOME PAGE==</div>
 </template>
 
 <script lang="ts">
-import { ref, defineComponent } from "vue";
-export default defineComponent({
-  name: "App",
-  setup() {
-    const refData = ref(0);
-    return {
-      refData
-    };
-  }
+import { ref, defineComponent } from "vue";
+export default defineComponent({
+  name: "App",
+  setup() {
+    const refData = ref(0);
+    return {
+      refData,
+    };
+  },
 });
 </script>
-<style>
-</style>
+<style></style>

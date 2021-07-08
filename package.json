@@ -6,6 +6,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@types/mockjs": "^1.0.3",
     "axios": "^0.21.1",
     "element-plus": "^1.0.2-beta.54",
     "mockjs": "^1.1.0",

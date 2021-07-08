@@ -9,6 +9,7 @@
 
 import Mock, { mock } from "mockjs";
 import data from "../mock/data.json";
+import { loginMock } from "../mock/loginMock";
 
 //返回goods的接口
 Mock.mock("/goods", { code: 0, data: data.goods});
@@ -16,3 +17,5 @@ Mock.mock("/goods", { code: 0, data: data.goods});
 Mock.mock("/ratings", {code:0, data: data.ratings});
 //返回info接口
 Mock.mock("/info", {code:0, data: data.info});
+//返回用户信息
+Mock.mock("/user/info", loginMock);
