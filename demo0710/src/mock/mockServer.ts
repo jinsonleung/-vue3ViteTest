@@ -18,4 +18,4 @@ Mock.mock("/ratings", {code:0, data: data.ratings});
 //返回info接口
 Mock.mock("/info", {code:0, data: data.info});
 //返回用户信息
-Mock.mock("/user/info", loginMock);
+Mock.mock("http://localhost:3000/user/info", loginMock);
