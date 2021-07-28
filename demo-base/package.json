@@ -6,20 +6,13 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@types/mockjs": "^1.0.4",
-    "@types/node": "^16.3.3",
-    "axios": "^0.21.1",
-    "element-plus": "^1.0.2-beta.55",
-    "mockjs": "^1.1.0",
-    "vue": "^3.0.5",
-    "vue-router": "4",
-    "vuex": "^4.0.2"
+    "vue": "^3.0.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.3",
+    "@vitejs/plugin-vue": "^1.2.5",
     "@vue/compiler-sfc": "^3.0.5",
     "typescript": "^4.3.2",
-    "vite": "^2.3.8",
+    "vite": "^2.4.2",
     "vue-tsc": "^0.0.24"
   }
 }
